@@ -1,4 +1,3 @@
-// app/courses/[faculty].tsx
 import React, { useState } from "react";
 import { ScrollView, View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { useLocalSearchParams } from "expo-router";
@@ -10,17 +9,17 @@ type Course = { id: string; name: string; description: string; rating: number };
 
 const coursesData: Record<string, Course[]> = {
   ict: [
-    { id: "ict1", name: "Introduction to Programming", description: "Learn the basics of programming using Python.", rating: 0 },
-    { id: "ict2", name: "Data Structures & Algorithms", description: "Understand how to organize and manipulate data efficiently.", rating: 0 },
-    { id: "ict3", name: "Database Systems", description: "Learn relational database design, SQL, and queries.", rating: 0 },
+    { id: "ict1", name: "Software Engineering with Multimedia", description: "Learn the basics of programming using Python.", rating: 0 },
+    { id: "ict2", name: "Business Information Technology", description: "Understand how to organize and manipulate data efficiently.", rating: 0 },
+    { id: "ict3", name: "Information Technology", description: "Learn relational database design, SQL, and queries.", rating: 0 },
     { id: "ict4", name: "Networking Fundamentals", description: "Explore network protocols, topologies, and communication systems.", rating: 0 },
     { id: "ict5", name: "Web Development", description: "Build interactive websites using HTML, CSS, and JavaScript.", rating: 0 },
   ],
   business: [
-    { id: "bus1", name: "Principles of Management", description: "Learn management theories and how to apply them in business.", rating: 0 },
-    { id: "bus2", name: "Marketing Fundamentals", description: "Understand marketing strategies, market research, and consumer behavior.", rating: 0 },
-    { id: "bus3", name: "Accounting Basics", description: "Learn the principles of financial accounting and reporting.", rating: 0 },
-    { id: "bus4", name: "Business Ethics", description: "Explore ethical issues and decision-making in business.", rating: 0 },
+    { id: "bus1", name: "International Business", description: "Learn management theories and how to apply them in business.", rating: 0 },
+    { id: "bus2", name: "Marketing", description: "Understand marketing strategies, market research, and consumer behavior.", rating: 0 },
+    { id: "bus3", name: "Human Resource Management", description: "Learn the principles of financial accounting and reporting.", rating: 0 },
+    { id: "bus4", name: "Retail Management", description: "Explore ethical issues and decision-making in business.", rating: 0 },
     { id: "bus5", name: "Entrepreneurship", description: "Learn how to start, manage, and grow a business.", rating: 0 },
   ],
   multimedia: [
@@ -38,10 +37,10 @@ const coursesData: Record<string, Course[]> = {
     { id: "arch2", name: "Architectural History", description: "Study architectural styles from ancient to modern times.", rating: 0 },
   ],
   media: [
-    { id: "media1", name: "Journalism & Reporting", description: "Learn investigative journalism and effective reporting skills.", rating: 0 },
+    { id: "media1", name: "Journalism", description: "Learn investigative journalism and effective reporting skills.", rating: 0 },
     { id: "media2", name: "Public Relations", description: "Understand communication strategies and reputation management.", rating: 0 },
-    { id: "media3", name: "Digital Media Production", description: "Create content for digital platforms, including social media.", rating: 0 },
-    { id: "media4", name: "Broadcasting & Presentation", description: "Learn TV, radio, and online presentation techniques.", rating: 0 },
+    { id: "media3", name: "TV and Film Production", description: "Create content for digital platforms, including social media.", rating: 0 },
+    { id: "media4", name: "Broadcasting", description: "Learn TV, radio, and online presentation techniques.", rating: 0 },
     { id: "media5", name: "Media Ethics & Law", description: "Explore legal and ethical issues in media industries.", rating: 0 },
   ],
 };
