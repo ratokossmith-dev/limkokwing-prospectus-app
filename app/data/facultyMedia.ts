@@ -1,4 +1,5 @@
-// app/data/facultyMedia.ts
+
+
 export const facultyImages: Record<string, any> = {
   ict: require("../images/faculties/ict.jpg"),
   business: require("../images/faculties/business.jpg"),
@@ -7,4 +8,8 @@ export const facultyImages: Record<string, any> = {
   media: require("../images/faculties/media.jpg"),
 };
 
+
 export const homeImage = require("../images/home/campus_banner.jpg");
+
+
+export const limkokwingLogo = require("../assets/limkokwing-icon.png");

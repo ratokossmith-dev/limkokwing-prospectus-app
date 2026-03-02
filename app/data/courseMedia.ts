@@ -1,5 +1,9 @@
 // app/data/courseMedia.ts
 
+// Limkokwing logo
+export const limkokwingLogo = require("../assets/limkokwing-icon.png");
+
+// Course images for all faculties
 export const courseImages: Record<string, Record<string, any>> = {
   // ICT Faculty
   ict: {
