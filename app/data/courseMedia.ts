@@ -1,52 +1,38 @@
-// app/data/courseMedia.ts
-
-// Limkokwing logo
-export const limkokwingLogo = require("../assets/limkokwing-icon.png");
-
 // Course images for all faculties
 export const courseImages: Record<string, Record<string, any>> = {
-  // ICT Faculty
   ict: {
-    ict1: require("../images/ict/intro_programming.jpg"),
-    ict2: require("../images/ict/data_structures.jpg"),
-    ict3: require("../images/ict/database_systems.jpg"),
-    ict4: require("../images/ict/networking.jpg"),
-    ict5: require("../images/ict/web_development.jpg"),
+    ict1: require("../../assets/images/ict/intro_programming.jpg"),
+    ict2: require("../../assets/images/ict/data_structures.jpg"),
+    ict3: require("../../assets/images/ict/database_systems.jpg"),
+    ict4: require("../../assets/images/ict/networking.jpg"),
+    ict5: require("../../assets/images/ict/web_development.jpg"),
   },
-
-  // Business Faculty
   business: {
-    bus1: require("../images/business/management.jpg"),
-    bus2: require("../images/business/marketing.jpg"),
-    bus3: require("../images/business/accounting.jpg"),
-    bus4: require("../images/business/ethics.jpg"),
-    bus5: require("../images/business/entrepreneurship.jpg"),
+    bus1: require("../../assets/images/business/management.jpg"),
+    bus2: require("../../assets/images/business/marketing.jpg"),
+    bus3: require("../../assets/images/business/accounting.jpg"),
+    bus4: require("../../assets/images/business/ethics.jpg"),
+    bus5: require("../../assets/images/business/entrepreneurship.jpg"),
   },
-
-  // Multimedia Faculty
   multimedia: {
-    mm1: require("../images/multimedia/graphic_design.jpg"),
-    mm2: require("../images/multimedia/3d_animation.jpg"),
-    mm3: require("../images/multimedia/video_production.jpg"),
-    mm4: require("../images/multimedia/audio_engineering.jpg"),
-    mm5: require("../images/multimedia/digital_storytelling.jpg"),
+    mm1: require("../../assets/images/multimedia/graphic_design.jpg"),
+    mm2: require("../../assets/images/multimedia/3d_animation.jpg"),
+    mm3: require("../../assets/images/multimedia/video_production.jpg"),
+    mm4: require("../../assets/images/multimedia/audio_engineering.jpg"),
+    mm5: require("../../assets/images/multimedia/digital_storytelling.jpg"),
   },
-
-  // Architecture Faculty
   architecture: {
-    arch1: require("../images/architecture/architectural_design.jpg"),
-    arch2: require("../images/architecture/building_materials.jpg"),
-    arch3: require("../images/architecture/structural_engineering.jpg"),
-    arch4: require("../images/architecture/urban_planning.jpg"),
-    arch5: require("../images/architecture/architectural_history.jpg"),
+    arch1: require("../../assets/images/architecture/architectural_design.jpg"),
+    arch2: require("../../assets/images/architecture/building_materials.jpg"),
+    arch3: require("../../assets/images/architecture/structural_engineering.jpg"),
+    arch4: require("../../assets/images/architecture/urban_planning.jpg"),
+    arch5: require("../../assets/images/architecture/architectural_history.jpg"),
   },
-
-  // Media & Communication Faculty
   media: {
-    media1: require("../images/media/journalism_reporting.jpg"),
-    media2: require("../images/media/public_relations.jpg"),
-    media3: require("../images/media/digital_media_production.jpg"),
-    media4: require("../images/media/broadcasting_presentation.jpg"),
-    media5: require("../images/media/media_ethics.jpg"),
+    media1: require("../../assets/images/media/journalism_reporting.jpg"),
+    media2: require("../../assets/images/media/public_relations.jpg"),
+    media3: require("../../assets/images/media/digital_media_production.jpg"),
+    media4: require("../../assets/images/media/broadcasting_presentation.jpg"),
+    media5: require("../../assets/images/media/media_ethics.jpg"),
   },
 };

@@ -1,15 +1,13 @@
+// app/data/facultyMedia.ts
 
-
+// Faculty images
 export const facultyImages: Record<string, any> = {
-  ict: require("../images/faculties/ict.jpg"),
-  business: require("../images/faculties/business.jpg"),
-  multimedia: require("../images/faculties/multimedia.jpg"),
-  architecture: require("../images/faculties/architecture.jpg"),
-  media: require("../images/faculties/media.jpg"),
+  ict: require("../../assets/images/faculties/ict.jpg"),
+  business: require("../../assets/images/faculties/business.jpg"),
+  multimedia: require("../../assets/images/faculties/multimedia.jpg"),
+  architecture: require("../../assets/images/faculties/architecture.jpg"),
+  media: require("../../assets/images/faculties/media.jpg"),
 };
 
-
-export const homeImage = require("../images/home/campus_banner.jpg");
-
-
-export const limkokwingLogo = require("../assets/limkokwing-icon.png");
+// Home banner image
+export const homeImage = require("../../assets/images/home/campus_banner.jpg");
